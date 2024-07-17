@@ -20,11 +20,10 @@ const Home = () => {
           We're working hard to get TalkWave ready for everyone! While we wrap up the finishing touches, we're adding people gradually to make sure nothing breaks.
         </p>
         <div>
-          <Button handleClick={handleRegister} text="Get your username" />
+          <Button handleClick={handleRegister} text="Let's Go" />
         </div>
         <div className={styles.signinWrapper}>
           <span>Have an invite text ?</span>
-          <Link to='/login' className={styles.signinText}>Sign in</Link>
         </div>
       </Card>
     </div>
