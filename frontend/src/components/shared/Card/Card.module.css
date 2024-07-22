@@ -2,10 +2,13 @@
     width: 500px;
     max-width: 90%;
     min-height: 300px;
-    background: #1D1D1D;
+    background: #1d1d1d;
     padding: 30px;
     border-radius: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .headingWrapper {
@@ -17,6 +20,6 @@
 }
 
 .heading {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
 }

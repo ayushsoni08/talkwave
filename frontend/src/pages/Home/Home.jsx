@@ -9,7 +9,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleRegister = () => {
-    navigate('/register');
+    navigate('/authenticate');
     console.log("clicked...");
   }
 
